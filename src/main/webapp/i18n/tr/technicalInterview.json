@@ -1,0 +1,29 @@
+{
+  "iKaMetApp": {
+    "technicalInterview": {
+      "home": {
+        "title": "Technical Interviews",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Technical Interview",
+        "createOrEditLabel": "Create or edit a Technical Interview",
+        "notFound": "No Technical Interviews found"
+      },
+      "created": "A new Technical Interview is created with identifier {{ param }}",
+      "updated": "A Technical Interview is updated with identifier {{ param }}",
+      "deleted": "A Technical Interview is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Technical Interview {{ id }}?"
+      },
+      "detail": {
+        "title": "Technical Interview"
+      },
+      "id": "ID",
+      "date": "Date",
+      "score": "Score",
+      "technicalStatus": "Technical Status",
+      "notes": "Notes",
+      "editBy": "Edit By",
+      "process": "Process"
+    }
+  }
+}

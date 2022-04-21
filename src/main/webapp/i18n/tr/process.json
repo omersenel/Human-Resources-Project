@@ -1,0 +1,34 @@
+{
+  "iKaMetApp": {
+    "process": {
+      "home": {
+        "title": "Processes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Process",
+        "createOrEditLabel": "Create or edit a Process",
+        "notFound": "No Processes found"
+      },
+      "created": "A new Process is created with identifier {{ param }}",
+      "updated": "A Process is updated with identifier {{ param }}",
+      "deleted": "A Process is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Process {{ id }}?"
+      },
+      "detail": {
+        "title": "Process"
+      },
+      "id": "ID",
+      "pdate": "Pdate",
+      "department": "Department",
+      "technicalIndicators": "Technical Indicators",
+      "experience": "Experience",
+      "position": "Position",
+      "salaryExpectation": "Salary Expectation",
+      "possibleAssignmnet": "Possible Assignmnet",
+      "lastStatus": "Last Status",
+      "lastDescription": "Last Description",
+      "editBy": "Edit By",
+      "candidate": "Candidate"
+    }
+  }
+}

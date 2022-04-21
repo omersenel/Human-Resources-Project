@@ -1,0 +1,40 @@
+{
+  "name": "Candidate",
+  "fields": [
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "university",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "graduationYear",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "gpa",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "editBy",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "candidate",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211030112308"
+}

@@ -1,0 +1,29 @@
+{
+  "iKaMetApp": {
+    "hrInterview": {
+      "home": {
+        "title": "Hr Interviews",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Hr Interview",
+        "createOrEditLabel": "Create or edit a Hr Interview",
+        "notFound": "No Hr Interviews found"
+      },
+      "created": "A new Hr Interview is created with identifier {{ param }}",
+      "updated": "A Hr Interview is updated with identifier {{ param }}",
+      "deleted": "A Hr Interview is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Hr Interview {{ id }}?"
+      },
+      "detail": {
+        "title": "Hr Interview"
+      },
+      "id": "ID",
+      "date": "Date",
+      "score": "Score",
+      "ikStatus": "Ik Status",
+      "notes": "Notes",
+      "editBy": "Edit By",
+      "process": "Process"
+    }
+  }
+}

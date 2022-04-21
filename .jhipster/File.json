@@ -1,0 +1,32 @@
+{
+  "name": "File",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "data",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "candidate",
+      "otherEntityRelationshipName": "file",
+      "relationshipName": "candidate"
+    }
+  ],
+  "entityTableName": "file",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211030112309"
+}

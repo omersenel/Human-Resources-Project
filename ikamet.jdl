@@ -1,0 +1,61 @@
+entity HrInterview {
+    date Instant
+    score Double
+    ikStatus String
+    notes String
+    editBy String
+}
+entity TechnicalInterview {
+    date Instant
+    score Double
+    technicalStatus String
+    notes String
+    editBy String
+}
+
+
+entity  Process{
+     pdate Instant 
+     department String
+     technicalIndicators String
+     experience String
+     position String
+     salaryExpectation Double
+     possibleAssignmnet String
+     lastStatus String 
+     lastDescription String
+     editBy String
+}
+
+entity Candidate {
+    firstName String
+    lastName String
+    university String
+    graduationYear String
+    gpa Double 
+    editBy String
+}
+entity File {
+   name String 
+   data Blob 
+}
+
+relationship ManyToOne{
+   File{candidate} to Candidate
+}
+relationship ManyToOne {
+    Process{candidate} to Candidate
+}
+
+relationship ManyToOne {
+    HrInterview{process} to Process
+}
+relationship ManyToOne {
+    TechnicalInterview{process} to Process
+}
+
+
+
+
+// Set service options to all except few
+service all with serviceImpl 

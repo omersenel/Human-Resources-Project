@@ -1,0 +1,43 @@
+{
+  "name": "TechnicalInterview",
+  "fields": [
+    {
+      "fieldName": "date",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "score",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "technicalStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "notes",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "editBy",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "process",
+      "otherEntityRelationshipName": "technicalInterview",
+      "relationshipName": "process"
+    }
+  ],
+  "entityTableName": "technical_interview",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211030112306"
+}
